@@ -1,0 +1,132 @@
+/* global styles starts here */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+label {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+/* global styles ends here */
+
+/* css variables starts here */
+
+:root {
+  --mybg: rgb(0, 230, 138);
+}
+
+/* css variables ends here */
+
+/* main content design starts here */
+
+.maincontent {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+}
+
+.maincontent-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maincontent-center {
+  width: 85%;
+}
+
+.maincontent-center .maincontent-top {
+  margin-bottom: 45px;
+}
+
+.maincontent-center .maincontent-input__name {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-gap: 20px;
+}
+
+.maincontent-center .maincontent-input {
+  margin-bottom: 25px;
+}
+
+.maincontent-center .maincontent-input {
+  margin-bottom: 25px;
+}
+
+.maincontent-center .maincontent-input label {
+  font-size: 1rem;
+  margin-bottom: 3px;
+}
+
+.maincontent-center .maincontent-input input {
+  border: 1px solid #d1d1d1;
+  width: 100%;
+  padding: 5px 5px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.maincontent-center .maincontent-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.maincontent-center .maincontent-check label {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.maincontent-center .maincontent-check span {
+  color: var(--mybg);
+}
+
+.maincontent .maincontent-submit {
+  display: flex;
+  justify-content: center;
+}
+
+.maincontent .maincontent-submit button {
+  background: rgb(0, 209, 126);
+  padding: 10px 40px;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.maincontent .maincontent-submit button:hover {
+  background: var(--mybg);
+  transform: scale(0.95);
+  transition: all 0.5s;
+}
+
+.maincontent .maincontent-right img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* main content design ends here */
